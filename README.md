@@ -34,7 +34,6 @@ Implemented using a compact LUT (Look-Up Table), POST achieves higher representa
 - ✅ Plug-and-play PyTorch modules for CNN and Transformer layers  
 - ✅ Full training and evaluation pipelines for ImageNet and CIFAR-10  
 - ✅ Reproducible results for ResNet-18/34 and MobileNet-V2  
-- ✅ Quantitative LUT overhead analysis  
 
 ---
 
