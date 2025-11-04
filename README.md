@@ -36,12 +36,3 @@ Implemented using a compact LUT (Look-Up Table), POST achieves higher representa
 - ✅ Reproducible results for ResNet-18/34 and MobileNet-V2  
 
 ---
-
-## 🛠️ Installation
-
-```bash
-git clone https://github.com/<your-username>/ASQ-POST.git
-cd ASQ-POST
-conda create -n asqpost python=3.10
-conda activate asqpost
-pip install -r requirements.txt
