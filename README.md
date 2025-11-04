@@ -14,11 +14,11 @@ This repository introduces two complementary components designed to overcome thi
 ### 🔹 Adaptive Step-Size Quantization (**ASQ**)
 A dynamic quantization mechanism that adjusts activation step-sizes via a lightweight two-layer adapter:
 
-\[
+$$
 s_a = s \times \beta
-\]
+$$
 
-where \(\beta\) is computed from activation statistics.  
+where $\beta$ is computed from activation statistics.  
 ASQ enhances generalization across diverse and unseen distributions while adding negligible computational overhead.
 
 ### 🔹 Power-of-Square-Root-of-Two (**POST**)
