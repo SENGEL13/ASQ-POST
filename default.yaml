@@ -1,0 +1,29 @@
+# ASQ 🚀
+# Default training settings and hyperparameters for ImageNet training
+seed: 0
+gpu: 3
+bit: 4
+quant: True
+pretrained: True
+local_model:
+
+# Train setting   ------------------------------------------------------------------------------------------------------
+arch: "resnet18"
+data_path: "/path/to/imagenet/"
+num_epochs: 90
+save_path: "/path/to/save/"
+resume: False
+data_percentage: 1
+train_batch_size: 256
+num_workers: 8
+train_print_freq: 100
+
+
+# Val setting     ------------------------------------------------------------------------------------------------------
+val_batch_size: 64
+val_print_freq: 10
+
+# Hyperparameters ------------------------------------------------------------------------------------------------------
+lr: 0.01
+momentum: 0.9
+weight_decay: 0.0001
