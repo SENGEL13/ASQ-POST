@@ -2,7 +2,7 @@
 
 Official PyTorch implementation of  
 **"ASQ & POST: A Synergistic Framework for Adaptive and Non-Uniform Quantization"**  
-ubmitted to Neurocomputing (2025)*.  
+submitted to Neurocomputing (2025)*.  
 
 ---
 
